@@ -5,7 +5,7 @@ Licensed under the MIT license.
 
 // Main component is imported
 // and loaded.
-import App from './App';
+import App from './components/App';
 
 // Standard React stuff.
 import React from 'react';

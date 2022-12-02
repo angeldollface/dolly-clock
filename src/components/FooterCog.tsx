@@ -25,4 +25,6 @@ export class FooterCog extends React.Component {
         );
     }
 }
+
+// Exporting our component.
 export default FooterCog;

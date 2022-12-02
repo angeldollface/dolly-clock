@@ -27,6 +27,10 @@ export class ClockCog extends React.Component<
   }
 > {
   interval: any;
+
+  // Setting up
+  // our stateful variables
+  // here.
   constructor(props: any) {
     super(props);
     this.state = {
@@ -36,6 +40,8 @@ export class ClockCog extends React.Component<
     }
   }
 
+  // Gets the current time data and updates
+  // the state of relevant variables.
   updateStrings(): void {
     let hours: number = this.state.now.getHours();
     let minutes: number = this.state.now.getMinutes();
@@ -67,6 +73,12 @@ export class ClockCog extends React.Component<
       </div>			
     );
   }
+
+  // Calling the method to
+  // change state of relevant
+  // variables after React
+  // has synced the virtual
+  // DOM every second.
   componentDidMount(): void {
     this.interval = setInterval(
       () => {
@@ -74,9 +86,15 @@ export class ClockCog extends React.Component<
       }, 
       1000
     );
-    }
+  }
+
+  // Pre-empting re-rendering
+  // the same component in a lopp.
   componentWillUnmount(): void {
     clearInterval(this.interval);
   }
+
 }
+
+// Exporting our component.
 export default ClockCog;

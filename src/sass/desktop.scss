@@ -1,0 +1,95 @@
+/*
+DOLLY CLOCK by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+/* 
+This file handles styles on large screens.
+*/
+
+html, body {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+    background-color: $bgColor;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.time {
+    margin: 0 auto;
+    margin-top:35vh !important;
+    margin-bottom: 0px !important;
+    border: none;
+    display: block;
+    background-color: transparent;
+    padding: 0px;
+    width: 70%;
+}
+
+p.time {
+    text-align: center;
+    font-family: $stdFont;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 90px;
+    color: $fontColor;
+    text-shadow: 1px 2px $glowradius $glowColor;
+}
+
+p.date {
+    text-align: center;
+    font-family: $stdFont;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 50px;
+    color: $fontColor;
+    text-shadow: 1px 2px $glowradius $glowColor;
+}
+
+div.footer {
+    position: fixed;
+    border-top: 3px solid $fontColor;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a.footer {
+    color: $fontColor;
+    text-shadow: 1px 2px $glowradius $glowColor;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    transition-duration: 0.6s;
+}
+
+a.footer:hover {
+    color: $hoverColor;
+    text-shadow: 1px 2px $glowradius $glowHoverColor;
+}
+

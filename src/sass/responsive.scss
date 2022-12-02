@@ -1,0 +1,27 @@
+/*
+DOLLY CLOCK by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+/* 
+This file handles styles on responsive screens.
+*/
+
+@media screen and (max-width: 800px) {
+    div.time {
+        width: 80%;
+    }
+    p.time {
+        font-size: 80px;
+    }
+    p.date {
+        font-size: 40px;
+    } 
+    div.footer {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }   
+    a.footer {
+        font-size: 25px;
+    }
+}
