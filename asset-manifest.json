@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dolly-clock/static/css/main.bfe51c4d.css",
+    "main.css": "/dolly-clock/static/css/main.770cdee6.css",
     "main.js": "/dolly-clock/static/js/main.f06afcce.js",
     "index.html": "/dolly-clock/index.html",
-    "main.bfe51c4d.css.map": "/dolly-clock/static/css/main.bfe51c4d.css.map",
+    "main.770cdee6.css.map": "/dolly-clock/static/css/main.770cdee6.css.map",
     "main.f06afcce.js.map": "/dolly-clock/static/js/main.f06afcce.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe51c4d.css",
+    "static/css/main.770cdee6.css",
     "static/js/main.f06afcce.js"
   ]
 }
