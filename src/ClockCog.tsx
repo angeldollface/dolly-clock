@@ -41,8 +41,8 @@ export class ClockCog extends React.Component<
     let minutes: number = this.state.now.getMinutes();
     let seconds: number = this.state.now.getSeconds();
     let year: number = this.state.now.getFullYear();
-    let month: number = this.state.now.getMonth();
-    let day: number = this.state.now.getDay();
+    let month: number = this.state.now.getMonth()+1;
+    let day: number = this.state.now.getDate();
     let timeString: string = 
       hours.toString() + ':' + minutes.toString() 
       + ':' + seconds.toString();

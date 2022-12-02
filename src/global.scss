@@ -28,6 +28,8 @@ $fontColor: #FF7BAC;
 $glowColor: #FF7BAC;
 $glowradius: 45px;
 $stdFont: 'Ostrich';
+$hoverColor: #DF0045;
+$glowHoverColor: #DF0045;
 
 html, body {
     top: 0;
@@ -82,4 +84,29 @@ p.date {
     font-size: 50px;
     color: $fontColor;
     text-shadow: 1px 2px $glowradius $glowColor;
+}
+
+div.footer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+a.footer {
+    color: $fontColor;
+    text-shadow: 1px 2px $glowradius $glowColor;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    transition-duration: 0.6s;
+}
+
+a.footer:hover {
+    color: $hoverColor;
+    text-shadow: 1px 2px $glowradius $glowHoverColor;
 }
