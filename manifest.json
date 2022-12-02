@@ -1,0 +1,8 @@
+{
+  "short_name": "Dolly Clock",
+  "name": "A clock for your browser home page.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

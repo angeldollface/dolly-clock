@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dolly-clock/static/css/main.30d3e0fd.css",
+    "main.js": "/dolly-clock/static/js/main.7ce38450.js",
+    "index.html": "/dolly-clock/index.html",
+    "main.30d3e0fd.css.map": "/dolly-clock/static/css/main.30d3e0fd.css.map",
+    "main.7ce38450.js.map": "/dolly-clock/static/js/main.7ce38450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30d3e0fd.css",
+    "static/js/main.7ce38450.js"
+  ]
+}
