@@ -12,7 +12,7 @@ I was recently watching some tutorials and stumbled across someone who had a clo
 
 To use this clock widget (Website, actually!), simply set the URL [`https://angeldollface.art/dolly-clock/`](https://angeldollface.art/dolly-clock/) as your browser's start page and restart your browser.
 
-## TRY IT FOR YOURSELF! :inbox_tray:
+## TRY THIS PROJECT ON YOUR OWN MACHINE! :inbox_tray:
 
 To try this project locally, make sure you have the following tools installed and available from the command line:
 
@@ -42,7 +42,7 @@ $ npm install
 - 4.) Run React's development server:
 
 ```bash
-$ npm run serve
+$ npm start
 ```
 
 - 5.) Optional: To compile this project, run this command:
