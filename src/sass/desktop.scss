@@ -24,18 +24,16 @@ html, body {
     background-size: cover;
     background-position: center;
 }
-
 div.time {
     margin: 0 auto;
-    margin-top:35vh !important;
-    margin-bottom: 0px !important;
+    margin-top:25vh !important;
+    margin-bottom: 5vh !important;
     border: none;
     display: block;
     background-color: transparent;
     padding: 0px;
     width: 70%;
 }
-
 p.time {
     text-align: center;
     font-family: $stdFont;
@@ -48,7 +46,6 @@ p.time {
     color: $fontColor;
     text-shadow: 1px 2px $glowradius $glowColor;
 }
-
 p.date {
     text-align: center;
     font-family: $stdFont;
@@ -61,7 +58,6 @@ p.date {
     color: $fontColor;
     text-shadow: 1px 2px $glowradius $glowColor;
 }
-
 div.footer {
     position: fixed;
     border-top: 3px solid $fontColor;
@@ -78,7 +74,6 @@ div.footer {
     padding-top: 20px;
     text-align: center;
 }
-
 a.footer {
     color: $fontColor;
     text-shadow: 1px 2px $glowradius $glowColor;
@@ -87,9 +82,50 @@ a.footer {
     margin: 0px;
     transition-duration: 0.6s;
 }
-
 a.footer:hover {
     color: $hoverColor;
     text-shadow: 1px 2px $glowradius $glowHoverColor;
+}
+div.search {
+    margin: 0 auto;
+    margin-top:20px !important;
+    margin-bottom: 0px !important;
+    border: none;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    padding: 0px;
+    width: 70%;
+}
+input[type=text].search {
+    margin: 0px;
+    background-color: transparent;
+    border: 3px solid $fontColor;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 0px;
+    color: $fontColor;
+    font-size: 25px;
+    font-family: $stdFont;
+}
+input[type=text].search:focus {
+    outline: none;
+}
+button.search {
+    display: inline-block;
+    margin: 0px;
+    border: 3px solid $fontColor;
+    background-color: $fontColor;
+    padding: 15px;
+    border-radius:0px;
+    color: $bgColor;
+    font-size: 25px;
+    transition-duration: 0.6s;
+    font-family: $stdFont;
+}
+button.search:hover {
+    background-color: transparent;
+    border: 3px solid $fontColor;
+    color: $fontColor;
 }
 

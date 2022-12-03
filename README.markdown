@@ -10,7 +10,7 @@ I was recently watching some tutorials and stumbled across someone who had a clo
 
 ## USAGE :hammer:
 
-To use this clock widget (Website, actually!), simply set the URL [`https://angeldollface.art/dolly-clock/`](https://angeldollface.art/dolly-clock/) as your browser's start page and restart your browser.
+To use this clock widget (Website, actually!), simply set the URL [`https://angeldollface.art/dolly-clock/`](https://angeldollface.art/dolly-clock/) as your browser's start page and restart your browser. To search for things on Google type your query into the input field and press the `SEARCH` button.
 
 ## TRY THIS PROJECT ON YOUR OWN MACHINE! :inbox_tray:
 
@@ -59,6 +59,13 @@ $ npm run build
 - Initial release.
 - Upload to GitHub.
 - Deployment on GitHub Pages.
+
+### Version 1.1.0
+
+- Added a search bar that submits a search to Google.
+- Made some styling changes.
+- Made some performance improvements.
+- Updated documentation.
 
 ## NOTE :scroll:
 

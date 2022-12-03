@@ -24,4 +24,24 @@ This file handles styles on responsive screens.
     a.footer {
         font-size: 25px;
     }
+    div.search {
+        width: 80%;
+    }
+    input[type=text].search {
+        margin-bottom: 20px;
+        display: block;
+        width: 95%;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    button.search {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 15px;
+    }
 }
