@@ -45,8 +45,7 @@ export class SearchCog extends React.Component<
         window.open(searchURL);
     }
 
-    // Returning our stateful
-    // clock element.
+    // Rendering our search box.
     render(): ReactElement {
         return (
             <div className='search'>
