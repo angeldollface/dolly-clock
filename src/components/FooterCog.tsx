@@ -13,8 +13,7 @@ import { ReactElement } from 'react';
 // Defining our class-based component.
 export class FooterCog extends React.Component {
 
-    // Returning our stateful
-    // clock element.
+    // Rendering our footer component.
     render(): ReactElement {
         return (
             <div className='footer'>
