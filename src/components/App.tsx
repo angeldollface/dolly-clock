@@ -3,13 +3,12 @@ DOLLY CLOCK by Alexander Abraham, a.k.a. "Angel Dollface".
 Licensed under the MIT license.
 */
 
-// Loading the component where
-// the 3D things happen.
+// Loading our components.
 import ClockCog from './ClockCog';
 import SearchCog from './SearchCog';
 import FooterCog from './FooterCog';
 
-// Regsitering it.
+// Registering them.
 function App() {
   return (
    <>
